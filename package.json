@@ -4,6 +4,7 @@
   "description": "Build a reducer to manage state",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/introduction-to-react-assessment#readme",
   "devDependencies": {
+    "react-scripts": "1.0.17",
     "babel-core": "^6.22.1",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
@@ -36,6 +38,7 @@
   },
   "dependencies": {
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "redux": "^4.0.5"
   }
 }
